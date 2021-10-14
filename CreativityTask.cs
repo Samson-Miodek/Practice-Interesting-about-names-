@@ -12,7 +12,7 @@ namespace Names
         {
             GetMaxAndMinYear(names_data);
             return new HistogramData(
-                String.Format("Самое {0} имя", longOrShort ? "длинное" : "короткое"), 
+                String.Format("Самое {0} имя по годам", longOrShort ? "длинное" : "короткое"), 
                 GetNames(names_data), 
                 GetNameLengths(names_data)
             );
